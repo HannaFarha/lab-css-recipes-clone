@@ -1,16 +1,21 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 
-h1{
+div{
+ text-align: center;
  
-    background-image: url("images/apple-pie.jpg");
+  background-image: url("apple-pie.jpg");
+  margin: auto;
+  width: 60%;
+ 
+  padding: 300px;
     background-color: #cccccc;
    
 }
 html {
   
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 *, *:before, *:after {
@@ -19,14 +24,23 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  text-align: center;
 }
 
 /*  Set the font */
 body {
+  width: 100%;
+ 
+  
   font-family: "Helvetica", sans-serif;
+}
+h1{
+
+  color:white
 }
 
 /* STYLES */
